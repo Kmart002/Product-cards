@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
+.content{
+    padding: 2rem;
+    height: 40rem;
+    width: 30rem;
+    background-color: rgb(225, 238, 250);
+   border-radius: 1rem;
+}
+.image {
+   margin-top: 15rem;
+   margin-left: 2rem;
+}
+.productPrice, .category{
+    padding: 1rem;
+}
+.productDesc{ 
+    margin-top: 5rem;
+    margin-left: 2rem;  
+}
